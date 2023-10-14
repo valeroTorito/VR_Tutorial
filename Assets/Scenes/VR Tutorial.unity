@@ -481,7 +481,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 5270973679112695914, guid: 662dfd4869c82d44694e53defdddd9a2,
+  m_Reticle: {fileID: 7963474428598941905, guid: 4a472357af863a24ba9b849c38febd99,
     type: 3}
   m_BlockedReticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
@@ -511,7 +511,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1be6539da6605dd4cb8e64ec53295ff6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -585,7 +585,7 @@ LineRenderer:
     numCornerVertices: 4
     numCapVertices: 4
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
-  m_Reticle: {fileID: 5270973679112695914, guid: 662dfd4869c82d44694e53defdddd9a2,
+  m_Reticle: {fileID: 7963474428598941905, guid: 4a472357af863a24ba9b849c38febd99,
     type: 3}
   m_BlockedReticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
@@ -1315,7 +1315,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1be6539da6605dd4cb8e64ec53295ff6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1389,7 +1389,7 @@ LineRenderer:
     numCornerVertices: 4
     numCapVertices: 4
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
@@ -2758,3 +2758,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4291abaadefd03448cedf68d5d71a82, type: 3}
+--- !u!1001 &8471117876999358565
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2549634209196695634, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.4324
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.435
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.097527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4252641952081728704, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7963474428598941905, guid: 4a472357af863a24ba9b849c38febd99,
+        type: 3}
+      propertyPath: m_Name
+      value: ReticleContainer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4a472357af863a24ba9b849c38febd99, type: 3}
